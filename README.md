@@ -29,7 +29,7 @@ To run this project, ensure you have the following installed:
 
 ### Running the Project
 
-After running `docker-compose up --build`, the Node.js app will start on port 3000, and the MySQL database will be set up automatically. The app interacts with the database to create and retrieve user data.
+After running `docker-compose up --build`, the database will start first, then the Node app will start on port 3000 after the "Server running..." message. The app interacts with the database to create and retrieve user data.
 
 ### Dependencies
 
@@ -46,4 +46,4 @@ After running `docker-compose up --build`, the Node.js app will start on port 30
 
 ### License
 
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE)
+This project is licensed under the [MIT License](./LICENSE)
