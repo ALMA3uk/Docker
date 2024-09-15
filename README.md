@@ -36,7 +36,7 @@ After running `docker-compose up --build`, the database will start first, then t
 - **Node.js**: v20 (Alpine)
 - **Express**: v5.0.0
 - **Sequelize**: v6.37.3
-- **MySQL**: v8
+- **MySQL2**: v3.11.2
 - **Dotenv**: v16.4.5
 
 ### Docker Services
