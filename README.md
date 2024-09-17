@@ -29,7 +29,7 @@ To run this project, ensure you have the following installed:
 
 ### Running the Project
 
-After running `docker-compose up --build`, the database will start first, then the Node app will start on port 3000 after the "Server running..." message. The app interacts with the database to create and retrieve user data.
+After running `docker-compose up --build`, the database will start first, then the Node app will start on port 3000 after the "Server is running..." message. The app interacts with the database to create and retrieve user data.
 
 ### Dependencies
 
